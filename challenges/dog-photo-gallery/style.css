@@ -1,0 +1,26 @@
+body {
+    padding: 2rem;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.image {
+    width: 28rem;
+    margin-top: 1.6rem;
+    transition: all 2s ease-in-out; 
+}
+
+#generate-dog-btn {
+    border: none;
+    padding: 0.8rem 1.6rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: #364fc7;
+    color: white;
+}
+
+#generate-dog-btn:hover {
+    background: #4263eb;
+    transition: all ease-in-out .2s;
+}
+
