@@ -1,0 +1,20 @@
+#numberContainer {
+    background: indianred;
+    width: 22rem;
+    margin: 0 auto;
+    margin-top: 4rem;
+    padding: 1.6rem 2rem;
+    color: white;
+    font-family: sans-serif;
+}
+
+#numberContainer h6,
+#numberInput {
+    margin-top: .8rem;
+}
+
+#numberInput {
+    width: 100%;
+    height: 1.6rem;
+    padding-left: .4rem;
+}

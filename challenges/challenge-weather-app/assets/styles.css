@@ -41,6 +41,10 @@
   margin: 20px 0;
 }
 
+.photo img {
+  height: 17rem;
+}
+
 .photo::before {
   content: "loading";
 
@@ -103,7 +107,7 @@
   background: rgba(0, 0, 0, 0.5);
 }
 
-.thumb.active,
+.thumb:active,
 .thumb:hover,
 .thumb:focus {
   outline: 1px solid white;
